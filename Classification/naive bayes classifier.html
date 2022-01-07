@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Classification- Naive bayes classifier</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <div id="header">
+            <ul>
+                <li ><a href="../home.html">Home</a></li>
+                <li class="dropdown" >Description
+                    <div class="dropmenu">
+                        <span class="sidedropdown">Graphical Methods &#8250;
+                            <div class="sidemenu">
+                                <a href="../description/run chart.html"><span>Run charts</span></a>
+                                <a href="../description/order chart.html"><span>Order charts</span></a>
+                                <a href="../description/special chart.html"><span>Special charts</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Statistical Methods &#8250;
+                            <div class="sidemenu">
+                                <a href="../description/hypothesis testing.html"><span>Hypothesis testing</span></a>
+                                <a href="../description/coorelation.html"><span>Coorelation data</span></a>
+                                <a href="../description/multi corelation data.html"><span>Multi corelation data</span></a>
+                            </div>
+                        </span>
+                        <a href="../description/exploratory data analysis.html"><span>Exploratory Data Analysis</span></a>
+                    </div>
+                </li>
+
+                <li class="dropdown" style="background-color: #30475e;">Classification
+                    <div class="dropmenu">
+                        <span class="sidedropdown">Logic based algorithim &#8250;
+                            <div class="sidemenu">
+                                <a href="../Classification/decision tree.html"><span>Decision trees</span></a>
+                                <a href="../Classification/learning set of rules.html"><span>Learning set of rules</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Perception based learners &#8250;
+                            <div class="sidemenu">
+                                <a href="../Classification/single layered perception.html"><span>Single layered perception</span></a>
+                                <a href="../Classification/Multi layered perception.html"><span>Multi layered perception</span></a>
+                                <a href="../Classification/Radial basis function network.html"><span>Radial basis function networks</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Statistical learners &#8250;
+                            <div class="sidemenu">
+                                <a href="../Classification/naive bayes classifier.html"><span>Naive Bayes classifier</span></a>
+                                <a href="../Classification/bayesian network.html"><span>Bayesian networks</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Instance-based learners &#8250;
+                            <div class="sidemenu">
+                                <a href="../Classification/k-nearest.html"><span>k-nearest neighbours</span></a>
+                            </div>
+                        </span>
+                        <a href="../Classification/simple vector machine.html"><span>Support Vector Machines</span></a>
+                    </div>
+                </li>
+
+                <li class="dropdown">Regression
+                    <div class="dropmenu">
+                        <a href="#"><span >Linear regression</span></a>
+                        <a href="#"><span >Polynomial regression</span></a>
+                        <a href="#"><span >Multiple linear regression</span></a>
+                        <span class="sidedropdown">Generalized linear models &#8250;
+                            <div class="sidemenu">
+                                <a href="#"><span>Logic regression</span></a>
+                                <a href="#"><span>Poisson regression</span></a>
+                            </div>
+                        </span>
+                        <a href="#"><span >Log-linear models</span></a>
+                        <a href="#"><span >Regression trees</span></a>
+                        <a href="#"><span >Instance-based regression</span></a>
+                        <a href="#"><span>Multivariate adaptive regression splines</span></a>
+                        <a href="#"><span>Support Vector Machines</span></a>
+                        <a href="#"><span >Neural networks</span></a>
+                    </div>
+                </li>
+
+                <li class="dropdown">Clustering
+                    <div class="dropmenu">
+                        <span class="sidedropdown">Hierarchical methods &#8250;
+                            <div class="sidemenu">
+                                <a href="#"><span>Agglomerative</span></a>
+                                <a href="#"><span>Divisive</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Partitioning methods &#8250;
+                            <div class="sidemenu">
+                                <a href="#"><span>K-Means</span></a>
+                                <a href="#"><span>K-Medoids</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Density-based methods &#8250;
+                            <div class="sidemenu">
+                                <a href="#"><span>DBSCAN</span></a>
+                                <a href="#"><span>OPTICS</span></a>
+                                <a href="#"><span>DENCLUE</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Grid-based methods &#8250;
+                            <div class="sidemenu">
+                                <a href="#"><span>STING</span></a>
+                                <a href="#"><span>WaveCluster</span></a>
+                                <a href="#"><span>CLIQUE</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Model base methods &#8250;
+                            <div class="sidemenu">
+                                <a href="#"><span>EM method</span></a>
+                                <a href="#"><span>Conceptual Clustering</span></a>
+                                <a href="#"><span>Neural networks</span></a>
+                            </div>
+                        </span>
+                    </div>
+                </li>
+
+                <li class="dropdown">Association
+                    <div class="dropmenu">
+                        <a href="#"><span >Apriori algorithim</span></a>
+                        <a href="#"><span >FP-Growth algorithim</span></a>
+                        <a href="#"><span >Dynamic Hashing and Pruning</span></a>
+                        <a href="#"><span >Partition algorithim</span></a>
+                        <a href="#"><span >Sampling based algorithim</span></a>
+                        <a href="#"><span >Dynamic Itemset</span></a>
+                        <a href="#"><span >Counting tree-projection</span></a>
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+        <div id="content">
+            <h1>Naive bayes classifier</h1>
+            <p style="font-size: 12px;">Classification / Statistical learners / Naive bayes classifier</p>
+            
+            <br>
+
+            <p>
+                It is a classification technique based on Bayes’ Theorem with an assumption of independence among predictors. In simple terms, a Naive Bayes classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature.
+            </p>
+            <p>
+                For example, a fruit may be considered to be an apple if it is red, round, and about 3 inches in diameter. Even if these features depend on each other or upon the existence of the other features, all of these properties independently contribute to the probability that this fruit is an apple and that is why it is known as ‘Naive’.
+            </p>
+            <p>
+                Naive Bayes model is easy to build and particularly useful for very large data sets. Along with simplicity, Naive Bayes is known to outperform even highly sophisticated classification methods.
+            </p>
+            <p>
+                Naive Bayes model is easy to build and particularly useful for very large data sets. Along with simplicity, Naive Bayes is known to outperform even highly sophisticated classification methods.
+            </p>
+            <p>
+                <img src="naive bayes classifier.JPG" alt="">
+            </p>
+            <h3>How Naive Bayes algorithm works?</h3>
+            <p>
+                Let’s understand it using an example. Below I have a training data set of weather and corresponding target variable ‘Play’ (suggesting possibilities of playing). Now, we need to classify whether players will play or not based on weather condition. Let’s follow the below steps to perform it.
+            </p>
+            <p>
+                Step 1: Convert the data set into a frequency table
+            </p>
+            <p>
+                Step 2: Create Likelihood table by finding the probabilities like Overcast probability = 0.29 and probability of playing is 0.64.
+            </p>
+            <p>
+                <img src="naive bayes classifier2.JPG" alt="">
+            </p>
+            <p>
+                Step 3: Now, use Naive Bayesian equation to calculate the posterior probability for each class. The class with the highest posterior probability is the outcome of prediction.
+            </p>
+            <p>
+                <stong>Problem</stong>: Players will play if weather is sunny. Is this statement is correct?
+            </p>
+            <p>
+                Problem: Players will play if weather is sunny. Is this statement is correct?
+            </p>
+            <p>
+                P(Yes | Sunny) = P( Sunny | Yes) * P(Yes) / P (Sunny)
+            </p>
+            <p>
+                Here we have P (Sunny |Yes) = 3/9 = 0.33, P(Sunny) = 5/14 = 0.36, P( Yes)= 9/14 = 0.64
+            </p>
+            <p>
+                Now, P (Yes | Sunny) = 0.33 * 0.64 / 0.36 = 0.60, which has higher probability.
+            </p>
+            <p>
+                Naive Bayes uses a similar method to predict the probability of different class based on various attributes. This algorithm is mostly used in text classification and with problems having multiple classes.
+            </p>
+            <h4>What are the Pros and Cons of Naive Bayes?</h4>
+            <h5>Pros:</h5>
+            <ul>
+                <li>It is easy and fast to predict class of test data set. It also perform well in multi class prediction</li>
+                <li>When assumption of independence holds, a Naive Bayes classifier performs better compare to other models like logistic regression and you need less training data.</li>
+                <li>It perform well in case of categorical input variables compared to numerical variable(s). For numerical variable, normal distribution is assumed (bell curve, which is a strong assumption).</li>
+            </ul>
+            <h5>Cons:</h5>
+            <ul>
+                <li>If categorical variable has a category (in test data set), which was not observed in training data set, then model will assign a 0 (zero) probability and will be unable to make a prediction. This is often known as “Zero Frequency”. To solve this, we can use the smoothing technique. One of the simplest smoothing techniques is called Laplace estimation.</li>
+                <li>On the other side naive Bayes is also known as a bad estimator, so the probability outputs from predict_proba are not to be taken too seriously.</li>
+                <li>Another limitation of Naive Bayes is the assumption of independent predictors. In real life, it is almost impossible that we get a set of predictors which are completely independent.</li>
+            </ul>
+            <h4>Applications of Naive Bayes Algorithms</h4>
+            <ul>
+                <li>Real time Prediction: Naive Bayes is an eager learning classifier and it is sure fast. Thus, it could be used for making predictions in real time.</li>
+                <li>Multi class Prediction: This algorithm is also well known for multi class prediction feature. Here we can predict the probability of multiple classes of target variable.</li>
+                <li>Text classification/ Spam Filtering/ Sentiment Analysis: Naive Bayes classifiers mostly used in text classification (due to better result in multi class problems and independence rule) have higher success rate as compared to other algorithms. As a result, it is widely used in Spam filtering (identify spam e-mail) and Sentiment Analysis (in social media analysis, to identify positive and negative customer sentiments)</li>
+                <li>Recommendation System: Naive Bayes Classifier and Collaborative Filtering together builds a Recommendation System that uses machine learning and data mining techniques to filter unseen information and predict whether a user would like a given resource or not</li>
+            </ul>
+           
+            
+        </div>
+        <div id="footer">
+            Made with <span style="color: rgb(243, 52, 148);"> &#10084; </span> by IS third year students.
+        </div>
+    </body>
+</html>

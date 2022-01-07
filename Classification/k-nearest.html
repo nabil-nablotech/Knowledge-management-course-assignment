@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Classification- K-nearest neighbours</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <div id="header">
+            <ul>
+                <li ><a href="../home.html">Home</a></li>
+                <li class="dropdown" >Description
+                    <div class="dropmenu">
+                        <span class="sidedropdown">Graphical Methods &#8250;
+                            <div class="sidemenu">
+                                <a href="../description/run chart.html"><span>Run charts</span></a>
+                                <a href="../description/order chart.html"><span>Order charts</span></a>
+                                <a href="../description/special chart.html"><span>Special charts</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Statistical Methods &#8250;
+                            <div class="sidemenu">
+                                <a href="../description/hypothesis testing.html"><span>Hypothesis testing</span></a>
+                                <a href="../description/coorelation.html"><span>Coorelation data</span></a>
+                                <a href="../description/multi corelation data.html"><span>Multi corelation data</span></a>
+                            </div>
+                        </span>
+                        <a href="../description/exploratory data analysis.html"><span>Exploratory Data Analysis</span></a>
+                    </div>
+                </li>
+
+                <li class="dropdown" style="background-color: #30475e;">Classification
+                    <div class="dropmenu">
+                        <span class="sidedropdown">Logic based algorithim &#8250;
+                            <div class="sidemenu">
+                                <a href="../Classification/decision tree.html"><span>Decision trees</span></a>
+                                <a href="../Classification/learning set of rules.html"><span>Learning set of rules</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Perception based learners &#8250;
+                            <div class="sidemenu">
+                                <a href="../Classification/single layered perception.html"><span>Single layered perception</span></a>
+                                <a href="../Classification/Multi layered perception.html"><span>Multi layered perception</span></a>
+                                <a href="../Classification/Radial basis function network.html"><span>Radial basis function networks</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Statistical learners &#8250;
+                            <div class="sidemenu">
+                                <a href="../Classification/naive bayes classifier.html"><span>Naive Bayes classifier</span></a>
+                                <a href="../Classification/bayesian network.html"><span>Bayesian networks</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Instance-based learners &#8250;
+                            <div class="sidemenu">
+                                <a href="../Classification/k-nearest.html"><span>k-nearest neighbours</span></a>
+                            </div>
+                        </span>
+                        <a href="../Classification/simple vector machine.html"><span>Support Vector Machines</span></a>
+                    </div>
+                </li>
+
+                <li class="dropdown">Regression
+                    <div class="dropmenu">
+                        <a href="#"><span >Linear regression</span></a>
+                        <a href="#"><span >Polynomial regression</span></a>
+                        <a href="#"><span >Multiple linear regression</span></a>
+                        <span class="sidedropdown">Generalized linear models &#8250;
+                            <div class="sidemenu">
+                                <a href="#"><span>Logic regression</span></a>
+                                <a href="#"><span>Poisson regression</span></a>
+                            </div>
+                        </span>
+                        <a href="#"><span >Log-linear models</span></a>
+                        <a href="#"><span >Regression trees</span></a>
+                        <a href="#"><span >Instance-based regression</span></a>
+                        <a href="#"><span>Multivariate adaptive regression splines</span></a>
+                        <a href="#"><span>Support Vector Machines</span></a>
+                        <a href="#"><span >Neural networks</span></a>
+                    </div>
+                </li>
+
+                <li class="dropdown">Clustering
+                    <div class="dropmenu">
+                        <span class="sidedropdown">Hierarchical methods &#8250;
+                            <div class="sidemenu">
+                                <a href="#"><span>Agglomerative</span></a>
+                                <a href="#"><span>Divisive</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Partitioning methods &#8250;
+                            <div class="sidemenu">
+                                <a href="#"><span>K-Means</span></a>
+                                <a href="#"><span>K-Medoids</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Density-based methods &#8250;
+                            <div class="sidemenu">
+                                <a href="#"><span>DBSCAN</span></a>
+                                <a href="#"><span>OPTICS</span></a>
+                                <a href="#"><span>DENCLUE</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Grid-based methods &#8250;
+                            <div class="sidemenu">
+                                <a href="#"><span>STING</span></a>
+                                <a href="#"><span>WaveCluster</span></a>
+                                <a href="#"><span>CLIQUE</span></a>
+                            </div>
+                        </span>
+                        <span class="sidedropdown">Model base methods &#8250;
+                            <div class="sidemenu">
+                                <a href="#"><span>EM method</span></a>
+                                <a href="#"><span>Conceptual Clustering</span></a>
+                                <a href="#"><span>Neural networks</span></a>
+                            </div>
+                        </span>
+                    </div>
+                </li>
+
+                <li class="dropdown">Association
+                    <div class="dropmenu">
+                        <a href="#"><span >Apriori algorithim</span></a>
+                        <a href="#"><span >FP-Growth algorithim</span></a>
+                        <a href="#"><span >Dynamic Hashing and Pruning</span></a>
+                        <a href="#"><span >Partition algorithim</span></a>
+                        <a href="#"><span >Sampling based algorithim</span></a>
+                        <a href="#"><span >Dynamic Itemset</span></a>
+                        <a href="#"><span >Counting tree-projection</span></a>
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+        <div id="content">
+            <h1>K-nearest neighbours</h1>
+            <p style="font-size: 12px;">Classification / Instance-based learners / K-nearest neighbours</p>
+            
+            <br>
+
+            <p>
+                K-nearest neighbors (KNN) algorithm is a type of supervised ML algorithm which can be used for both classification as well as regression predictive problems. However, it is mainly used for classification predictive problems in industry. The following two properties would define KNN well −
+            </p>
+            <ul>
+                <li>Lazy learning algorithm − KNN is a lazy learning algorithm because it does not have a specialized training phase and uses all the data for training while classification.</li>
+                <li>Non-parametric learning algorithm − KNN is also a non-parametric learning algorithm because it doesn’t assume anything about the underlying data.</li>
+            </ul>
+            <h4>Working of KNN Algorithm</h4>
+            <p>
+                K-nearest neighbors (KNN) algorithm uses ‘feature similarity’ to predict the values of new datapoints which further means that the new data point will be assigned a value based on how closely it matches the points in the training set. We can understand its working with the help of following steps −
+            </p>
+            <p>
+                Step 1 − For implementing any algorithm, we need dataset. So during the first step of KNN, we must load the training as well as test data.
+            </p>
+            <p>
+                Step 2 − Next, we need to choose the value of K i.e. the nearest data points. K can be any integer.
+            </p>
+            <p>
+                Step 3 − For each point in the test data do the following −
+                <ol>
+                    <li>Calculate the distance between test data and each row of training data with the help of any of the method namely: Euclidean, Manhattan or Hamming distance. The most commonly used method to calculate distance is Euclidean.</li>
+                    <li>Now, based on the distance value, sort them in ascending order.</li>
+                    <li>Next, it will choose the top K rows from the sorted array.</li>
+                    <li>Now, it will assign a class to the test point based on most frequent class of these rows.</li>
+                </ol>
+            </p>
+            <p>
+                Step 4 − End
+            </p>
+            <h4>Example</h4>
+            <p>
+                The following is an example to understand the concept of K and working of KNN algorithm −
+            </p>
+            <p>
+                Suppose we have a dataset which can be plotted as follows −
+            </p>
+            <p>
+                <img src="k-nearest.JPG" alt="">
+            </p>
+            <p>
+                Now, we need to classify new data point with black dot (at point 60,60) into blue or red class. We are assuming K = 3 i.e. it would find three nearest data points. It is shown in the next diagram −
+            </p>
+            <p>
+                <img src="k-nearest2.JPG" alt="">
+            </p>
+            <p>
+                We can see in the above diagram the three nearest neighbors of the data point with black dot. Among those three, two of them lies in Red class hence the black dot will also be assigned in red class.
+            </p>
+        </div>
+        <div id="footer">
+            Made with <span style="color: rgb(243, 52, 148);"> &#10084; </span> by IS third year students.
+        </div>
+    </body>
+</html>
